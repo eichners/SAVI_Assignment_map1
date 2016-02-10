@@ -81,12 +81,10 @@ $.getJSON( "geoJSON/HurricaneEvacuationZones.geojson", function( data ) {
             fillColor = "#d0d1e6";
         }
          if(value == 7) { 
-            console.log ("Hello");
             fillColor = "#000000";
             //f1eef6
         }
          if(value === "X") { 
-            console.log ("hello!")
             fillColor = "#000";
             //#7CBF2F
         }
